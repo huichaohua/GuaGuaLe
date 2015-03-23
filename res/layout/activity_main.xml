@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.ayuan.guaguale"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ayuan.guaguale.GuaGuaKa
+        android:id="@+id/id_card"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        custom:text="500,000000"
+        custom:textSize="30sp"
+        custom:textColor="#88000088"/>
+
+</RelativeLayout>
